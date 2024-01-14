@@ -1,0 +1,28 @@
+{
+  "name": "dtc-win-base-dev-pack",
+  "displayName": "DTC Windows Experience Developer pack",
+  "publisher": "danyathecoder",
+  "description": "This pack contains extensions, which are essential for development process on Windows.",
+  "version": "0.0.1",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danyathecoder/DTC-Windows-Experience-Developer-pack.git"
+  },
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "ms-vscode-remote.remote-containers",
+    "ms-vscode-remote.remote-ssh",
+    "ms-vscode-remote.remote-ssh-edit",
+    "ms-vscode-remote.remote-wsl",
+    "ms-vscode-remote.vscode-remote-extensionpack",
+    "ms-vscode.powershell",
+    "ms-vscode.remote-explorer",
+    "ms-vscode.remote-server"
+  ]
+}
